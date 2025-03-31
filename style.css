@@ -1,0 +1,39 @@
+p {
+  margin: 1em;
+  color: #333;
+}
+#presentation {
+  background-color: #f2f2f2;
+}
+.special {
+  color: #0099cc;
+  font-style: italic;
+}
+#presentation em {
+  font-weight: bold;
+}
+.list > li {
+  border: 1px solid red;
+}
+.special + p {
+  text-transform: uppercase;
+}
+aside .urgent ~ li {
+  font-style: italic;
+}
+article p:first-of-type {
+  background: yellow;
+}
+article p:nth-child(3) {
+  border: 2px solid green;
+}
+aside ul li:last-child {
+  color: red;
+}
+[data-note="secret"] {
+  border-style: dashed;
+}
+#infos li:hover {
+  background-color: rgb(208, 208, 208);
+  cursor: pointer;
+}
